@@ -9,8 +9,8 @@ class InsufficientBalanceException(Exception):
         return f"{self.args[0]} | Current Balance: {self.balance}, Withdrawal Amount: {self.amount}"
 
 
-ob = InsufficientBalanceException("Hello",300,200)
-print(ob)
+#ob = InsufficientBalanceException("Hello",300,200)
+#print(ob)
 
 class BankAccount:
     def __init__(self, balance):
